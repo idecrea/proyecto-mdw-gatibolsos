@@ -1,0 +1,81 @@
+.container__faq {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.header__section-faq {
+    background-color: var(--color-rosa);
+    background-size: cover;
+    width: 100%;
+    margin-top: 5.5rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header__title-faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.accordion-faq {
+    background-color: var(--color-rosa);
+    color: var(--color-dark-gris);
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;
+    padding: .5rem;
+    margin: 1rem 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.8s ease-in-out;
+}
+
+.accordion-faq:hover {
+    background-color: rgba(187, 187, 187, 0.7);
+}
+
+.active-faq {
+    background-color: var(--color-amarillo);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel-faq {
+    font-family: "Roboto", sans-serif;
+    font-size: .9rem;
+    background-color: var(--color-blanco);
+    max-height: 0;
+    padding: 0 1rem;
+    overflow: auto;
+    transition: max-height 0.8s ease-in-out;
+}
+
+.accordion-faq:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.2rem;
+    color: var(--color-dark-gris);
+    float: right;
+    margin-left: .5rem;
+}
+
+.active-faq:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.foot-faq {
+    background: linear-gradient(var(--color-blanco), var(--color-rosa), var(--color-blanco));
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    padding: 1rem 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}

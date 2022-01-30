@@ -1,0 +1,98 @@
+.container__posts {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.header__section-posts {
+    background-color: var(--color-rosa);
+    background-size: cover;
+    width: 100%;
+    margin-top: 5.5rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header__title-posts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.posts {
+    background-color: var(--color-blanco);
+    width: 100%;
+    padding: 2rem 0 0 0;
+}
+
+.posts__item {
+    margin: 0;
+}
+
+.posts__title {
+    color: var(--color-dark-gris);
+    align-content: center;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.posts__row {
+    display: flex;
+}
+
+.posts__card {
+    margin-bottom: 4rem;
+    transition: .3s ease-in-out;
+}
+
+.posts__item-date {
+    text-align: right;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    margin: 1rem;
+}
+
+.posts__item-extract {
+    font-family: "Roboto", sans-serif;
+    margin: 1rem 3rem 0 3rem;
+}
+
+.posts__item-title {
+    font-size: 1rem;
+    color: var(--color-blanco);
+    background-color: rgba(187, 187, 187, 0.6);
+    padding: 2rem 0;
+    margin: 0 1.5rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.posts__item-primero, .posts__item-segundo, .posts__item-tercero, .posts__item-cuarto {
+    background-size: cover;
+    height: 20rem;
+    padding: 8rem 0;
+}
+
+.posts__item-primero {
+    background-image: url("../img/tote-blog-320.jpg");
+    background-position: center;
+}
+
+.posts__item-segundo {
+    background-image: url("../img/little-cat-blog-320.jpg");
+    background-position: top;
+}
+
+.posts__item-tercero {
+    background-image: url("../img/cat-blog-320.jpg");
+    background-position: top;
+}
+
+.posts__item-cuarto {
+    background-image: url("../img/toy-cat-blog-320.jpg");
+    background-position: center;
+}

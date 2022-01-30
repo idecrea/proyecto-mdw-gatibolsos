@@ -1,0 +1,146 @@
+/* Variables */
+
+:root {
+    --color-blanco: #fff;
+    --color-dark-gris: #414141;
+    --color-negro: #000;
+    --color-rosa: #ffdddd;
+    --color-amarillo: #ffd597;
+}
+
+/* Fin Variables */
+
+/* Fuentes */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Italic.woff2") format("woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Italic.woff2") format("woff2");
+    font-style: italic;
+}
+
+/* Fin Fuentes */
+
+/* Generales */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Fin Generales */
+
+/* Inicio Header Común */
+
+.container__blank {
+    background-color: var(--color-blanco);
+    height: 1px;
+    margin-top: 12rem;
+}
+
+.header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-blanco);
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    max-width: 7rem;
+}
+
+.header__logo--menu {
+    max-width: 7rem;
+    margin: 1rem;
+}
+
+.header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Fin Header Común */
+
+/* INICIO Legal pages */
+
+.container__cookies, .container__legal, .container__privacy, .container__terms {
+    margin-top: 12rem;
+}
+
+.header__section-cookies, .header__section-legal, .header__section-privacy, .header__section-terms {
+    background-color: var(--color-rosa);
+    background-size: cover;
+    width: 100%;
+    margin-top: 5.5rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header__title-cookies, .header__title-legal, .header__title-privacy, .header__title-terms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.cookies-text, .legal-text, .privacy-text, .terms-text {
+    margin: 1rem 2rem 1rem 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: .9rem;
+}
+
+.cookies-title, .legal-title, .privacy-title, .terms-title {
+    margin-top: 2rem;
+    padding: .8rem 0 .8rem 2rem;
+    text-align: left;
+    background-color: var(--color-rosa);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+/* FIN Legal pages */

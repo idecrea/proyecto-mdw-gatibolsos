@@ -1,0 +1,80 @@
+.container__about {
+    margin-top: 12rem;
+}
+
+.header__section-about {
+    background-color: var(--color-rosa);
+    background-size: cover;
+    width: 100%;
+    margin-top: 5.5rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header__title-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.text__bold {
+    font-weight: 700;
+}
+
+.section__donation, .section__como {
+    margin: 2rem 0;
+}
+
+.section__donation-title, .section__why-title, .section__como-title, .section__price-title {
+    display: block;
+    margin: 3rem 0 1rem 0;
+}
+
+.section__donation__img, .section__donation__img-mobile, .section__como__img, .section__como__img-mobile {
+    width: 64px;
+    height: 64px;
+    margin: 1rem;
+}
+
+.section__donation__img-desktop, .section__como__img-desktop {
+    display: none;
+}
+
+.section__donation__image-left, .section__donation__image-right, .section__como__image-left, .section__como__image-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+
+.text__right {
+    text-align: right;
+}
+
+.section__why-text {
+    text-align: center;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.section__price-text {
+    text-align: center;
+    margin: 1rem;
+}
+
+.section__price-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 0 1rem 0 1rem;
+}
+
+.section__price-text-bottom {
+    text-align: center;
+    margin: 3rem 1rem 3rem 1rem;
+}

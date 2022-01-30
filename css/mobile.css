@@ -1,0 +1,241 @@
+/* INICIO Header Menú Mobile */
+
+.header__logo--menu {
+    opacity: 0;
+}
+
+.header__nav {
+    background-color: transparent;
+    transform: translate(100vw);
+    transition: 1s ease-in-out;
+}
+
+.header__nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.nav--show {
+    transform: translate(0vw);
+}
+
+.nav__button {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.nav__contact {
+    background-color: var(--color-blanco);
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.nav__contact-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__contact-link--email, .nav__contact-link--whatsapp {
+    height: 48px;
+    width: 48px;
+    margin: .8rem 1.5rem .8rem 1.5rem;
+}
+
+.header__button-nav--open, .header__button-nav--close {
+    background-color: var(--color-blanco);
+    border: none;
+}
+
+.header__button-nav--close {
+    margin: 1.5rem 1rem;
+}
+
+.header__button-nav-img {
+    width: 32px;
+    height: 32px;
+}
+
+.header__nav-section {
+    background-color: var(--color-rosa);
+    padding: 1rem 0 1rem 0;
+}
+
+.header__nav-item {
+    list-style: none;
+    margin: 1rem 0 1rem 0;
+}
+
+.header__nav-link {
+    display: flex;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.header__nav-desktop {
+    display: none;
+}
+
+/* FIN Header Menú Mobile */
+
+/* INICIO Sección opiniones Mobile */
+
+.mask {
+    background-image: url("/img/Fondogatosminiweb.jpg");
+}
+
+.slider ul {
+    margin: 0 1rem 0 1rem;
+}
+
+.slider .quote {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-style: italic;
+}
+
+.slider .source {
+    font-size: .7rem;
+}
+
+/* FIN Sección opiniones Mobile */
+
+/* INICIO Página Posts Mobile */
+
+.posts__item-extract {
+    display: none;
+}
+
+/* FIN Página Posts Mobile */
+
+/* INICIO Footer Mobile */
+
+.footer__top {
+    background-color: var(--color-dark-gris);
+    color: var(--color-blanco);
+    width: 100%;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.footer__top-title {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__top-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.footer__top-link {
+    text-align: center;
+}
+
+.footer__top-link--about, .footer__top-link--faq {
+    width: 3rem;
+    margin: 0 auto;
+}
+
+.footer__top-link--about-text, .footer__top-link--faq-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.footer__middle {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.footer__middle-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.footer__middle-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.footer__middle-link--email, .footer__middle-link--whatsapp {
+    width: 3rem;
+    margin: 0 auto;
+}
+
+.footer__middle-link {
+    text-align: center;
+}
+
+.footer__middle-ig {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    align-items: center;
+}
+
+.footer__middle-link--email-text, .footer__middle-link--whatsapp-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.footer__middle-ig-icon {
+    width: 3rem;
+    text-align: center;
+    margin: .3rem;
+}
+
+.footer__middle-ig-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: .5rem;
+    text-transform: uppercase;
+}
+
+.footer__bottom {
+    background-color: var(--color-dark-gris);
+    color: var(--color-blanco);
+    width: 100%;
+    padding: 2rem 0;
+    display: block;
+    align-items: center;
+}
+
+.footer__bottom-text {
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.footer__bottom-down {
+    color: var(--color-blanco);
+    background-color: var(--color-dark-gris);
+    padding: 0 0 2rem 0;
+}
+
+.footer__bottom-textcopy, .footer__bottom-textpatent {
+    font-style: italic;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.footer__bottom-textpatent {
+    font-size: .7rem;
+}
+
+/* FIN Footer Mobile */

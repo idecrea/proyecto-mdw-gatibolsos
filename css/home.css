@@ -1,0 +1,518 @@
+/* INICIO Slider común */
+
+.slider__top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sliderwebmini.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 4rem;
+}
+
+.slider__title {
+    color: var(--color-blanco);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.slider__subtitle {
+    color: var(--color-blanco);
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* FIN Slider común */
+
+/* INICIO Shop común */
+
+.shop {
+    background-color: var(--color-rosa);
+    width: 100vw;
+    padding: 2rem 0;
+}
+
+.shop__title {
+    color: var(--color-dark-gris);
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+.shop__text-1, .shop__text-2 {
+    font-style: italic;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.shop__text-1 {
+    margin-top: 1rem;
+}
+
+.shop__products {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.shop__img {
+    min-width: 12rem;
+    margin: 1rem;
+    display: block;
+    border: 2px solid var(--color-negro);
+}
+
+.shop__img-1 {
+    background: url("/img/webgato01totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-2 {
+    background: url("/img/webgato02totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-3 {
+    background: url("/img/webgato03totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-4 {
+    background: url("/img/webgato04totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-5 {
+    background: url("/img/webgato05totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-6 {
+    background: url("/img/webgato06totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-7 {
+    background: url("/img/webgato07totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-8 {
+    background: url("/img/webgato08totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.shop__img-9 {
+    background: url("/img/webgato09totehover.png") no-repeat;
+    background-size: cover;
+}
+
+.figcaption {
+    background-color: var(--color-blanco);
+}
+
+.shop__img-totebag:hover {
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+.shop__article-title {
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.shop__article-price {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.figcaption {
+    padding: .2rem;
+}
+
+/* FIN Shop común */
+
+/* INICIO Sección opiniones común */
+
+.comments {
+    background-color: var(--color-blanco);
+    padding: 2rem 0 0 0;
+}
+
+.comments__title {
+    color: var(--color-dark-gris);
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+.content-slider {
+    width: 100%;
+}
+
+.slider {
+    width: 100%;
+    margin: 40px auto 0;
+    overflow: hidden;
+    position: relative;
+    background-image: url("/img/Fondogatosweb.jpg");
+}
+
+.mask {
+    overflow: hidden;
+    height: 10rem;
+    background-image: url("/img/Fondogatosweb.jpg");
+}
+
+.slider ul {
+    margin: 0 3rem 0 3rem;
+    padding: 0;
+    position: relative;
+}
+
+.slider li {
+    width: 100%;
+    position: absolute;
+    top: -325px;
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--color-rosa);
+    text-align: center;
+}
+
+.slider .quote {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.slider .source {
+    font-size: .9rem;
+}
+
+.slider li.anim1 {
+    animation: cycle 30s linear infinite;
+}
+
+.slider li.anim2 {
+    animation: cycle2 30s linear infinite;
+}
+
+.slider li.anim3 {
+    animation: cycle3 30s linear infinite;
+}
+
+.slider li.anim4 {
+    animation: cycle4 30s linear infinite;
+}
+
+.slider li.anim5 {
+    animation: cycle5 30s linear infinite;
+}
+
+.slider:hover li {
+    animation-play-state: paused;
+}
+
+@keyframes cycle {
+    0% {
+        top: 0;
+    }
+    4% {
+        top: 0;
+    }
+    16% {
+        top: 0;
+        opacity: 1;
+        z-index: 0;
+    }
+    20% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+    21% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+    50% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+    92% {
+        top: -325px;
+        opacity: 0;
+        z-index: 0;
+    }
+    96% {
+        top: -325px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes cycle2 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+    16% {
+        top: -325px;
+        opacity: 0;
+    }
+    20% {
+        top: 0;
+        opacity: 1;
+    }
+    24% {
+        top: 0;
+        opacity: 1;
+    }
+    36% {
+        top: 0;
+        opacity: 1;
+        z-index: 0;
+    }
+    40% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+    41% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+    100% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle3 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+    36% {
+        top: -325px;
+        opacity: 0;
+    }
+    40% {
+        top: 0;
+        opacity: 1;
+    }
+    44% {
+        top: 0;
+        opacity: 1;
+    }
+    56% {
+        top: 0;
+        opacity: 1;
+        z-index: 0;
+    }
+    60% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+    61% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+    100% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle4 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+    56% {
+        top: -325px;
+        opacity: 0;
+    }
+    60% {
+        top: 0;
+        opacity: 1;
+    }
+    64% {
+        top: 0;
+        opacity: 1;
+    }
+    76% {
+        top: 0;
+        opacity: 1;
+        z-index: 0;
+    }
+    80% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+    81% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+    100% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle5 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+    76% {
+        top: -325px;
+        opacity: 0;
+    }
+    80% {
+        top: 0;
+        opacity: 1;
+    }
+    84% {
+        top: 0;
+        opacity: 1;
+    }
+    96% {
+        top: 0;
+        opacity: 1;
+        z-index: 0;
+    }
+    100% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+/* FIN Sección opiniones común */
+
+/* INICIO Sección about común */
+
+.about {
+    background-color: var(--color-rosa);
+    width: 100vw;
+    padding: 2rem 0;
+}
+
+.about__title {
+    color: var(--color-dark-gris);
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+.about__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.about__icon-img {
+    max-width: 32px;
+    margin-right: .5rem;
+}
+
+.about__description-title {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.about__description-content {
+    font-size: .9rem;
+}
+
+.about__more {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 12rem;
+}
+
+.about__more-text {
+    background-color: var(--color-amarillo);
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* FIN Sección about común */
+
+/* INICIO Sección posts común */
+
+.posts {
+    background-color: var(--color-blanco);
+    width: 100%;
+    padding: 2rem 0 0 0;
+}
+
+.posts__title {
+    color: var(--color-dark-gris);
+    align-content: center;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.posts__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.posts__item-title {
+    font-size: 1rem;
+    color: var(--color-blanco);
+    background-color: rgba(187, 187, 187, 0.6);
+    padding: 2rem 0;
+    margin: 0 1.5rem;
+    text-shadow: 1px 1px 2px black;
+    transition: .3s ease-in-out;
+}
+
+.posts__item-title:hover {
+    transform: scale(1.1);
+}
+
+.posts__item-primero, .posts__item-segundo, .posts__item-tercero, .posts__item-cuarto {
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.posts__item-primero {
+    background-image: url("../img/tote-blog-320.jpg");
+}
+
+.posts__item-segundo {
+    background-image: url("../img/little-cat-blog-320.jpg");
+}
+
+.posts__item-tercero {
+    background-image: url("../img/cat-blog-320.jpg");
+}
+
+.posts__item-cuarto {
+    background-image: url("../img/toy-cat-blog-320.jpg");
+}
+
+/* FIN Sección posts común */

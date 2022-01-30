@@ -1,0 +1,64 @@
+.container__single {
+    margin: 0 1rem 3rem 1rem;
+}
+
+.header__section-single {
+    background-color: var(--color-rosa);
+    background-size: cover;
+    width: 100%;
+    margin-top: 5.5rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header__title-single {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.single__date {
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    margin: 2rem 1rem;
+}
+
+.single__text {
+    font-family: "Roboto", sans-serif;
+    margin: 1rem;
+    font-size: .9rem;
+}
+
+.single__text-italic {
+    font-style: italic;
+    text-align: center;
+}
+
+.single__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 8rem;
+}
+
+.single__button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 10rem;
+}
+
+.single__button-text {
+    background-color: var(--color-amarillo);
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}

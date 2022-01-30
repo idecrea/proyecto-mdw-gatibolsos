@@ -1,0 +1,313 @@
+/* INICIO Header Menú Desktop */
+
+.header__nav {
+    background-color: var(--color-rosa);
+    transform: scale(0);
+}
+
+.nav--show {
+    transform: scale(1);
+}
+
+.nav__button, .header__button-nav--open, .header__button-nav--close {
+    display: none;
+}
+
+.header__nav-item-desktop {
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: .3s ease-in-out;
+}
+
+.header__nav-link-desktop {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.header__nav-list-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header__nav-item-desktop:hover {
+    transform: scale(1.2);
+}
+
+.header__nav-link-active {
+    border-bottom: 5px solid var(--color-rosa);
+}
+
+/* FIN Header Menú Desktop */
+
+/* INICIO Slider Desktop */
+
+.slider {
+    min-height: 14rem;
+    max-height: 24rem;
+    width: 100%;
+}
+
+.slider__top {
+    padding: 7rem;
+}
+
+.slider__text {
+    display: block;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: var(--color-blanco);
+    text-align: center;
+}
+
+.slider__title {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.slider__subtitle {
+    font-size: 1.3rem;
+    display: block;
+}
+
+/* FIN Slider Desktop */
+
+/* INICIO Shop Desktop */
+
+.shop__title {
+    font-size: 1.3rem;
+}
+
+.shop__products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    overflow-y: hidden;
+    margin: 0 8rem 0 8rem;
+}
+
+.shop__text-1, .shop__text-2 {
+    display: none;
+}
+
+/* FIN Shop Desktop */
+
+/* INICIO About Desktop */
+
+.about {
+    width: 100%;
+}
+
+.about__icon-img {
+    display: block;
+}
+
+.about__items {
+    display: flex;
+}
+
+.about__more-text, .single__button-text {
+    transition: .3s ease-in-out;
+}
+
+.about__more-text:hover, .single__button-text:hover {
+    transform: scale(1.1);
+}
+
+/* FIN About Desktop */
+
+/* INICIO Posts Desktop */
+
+.posts__1-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.posts__item {
+    margin: 1rem;
+    transition: .3s ease-in-out;
+}
+
+.posts__item-title {
+    font-size: 1.2rem;
+}
+
+.posts__item-segundo, .posts__item-tercero {
+    background-position: top;
+}
+
+.posts__card:hover {
+    transform: scale(1.05);
+}
+
+
+/* FIN Posts Desktop */
+
+/* INICIO PÁGINA ABOUT Desktop */
+
+.section__donation-title {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.section__donation__image, .section__como__image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    grid-gap: 2rem;
+}
+
+.section__como__image {
+    grid-template-rows: 2fr;
+}
+
+.section__donation__img-mobile, .section__como__img-mobile {
+    display: none;
+}
+
+.text__right {
+    text-align: left;
+}
+
+.section__donation__img-desktop, .section__como__img-desktop {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    margin: 1rem;
+}
+
+.section__why, .section__price {
+    background: linear-gradient(var(--color-blanco), var(--color-rosa), var(--color-blanco));
+}
+
+.section__price-block-text {
+    text-align: center;
+}
+
+.section__price-text-bottom {
+    margin: 5rem 3rem 5rem 3rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+}
+
+/* FIN PÁGINA ABOUT Desktop */
+
+/* INICIO PÁGINA FAQ Desktop */
+
+.container__faq {
+    margin: 0 3rem 3rem 3rem;
+}
+
+.accordion-faq {
+    padding: 1.5rem 2rem;
+}
+
+.panel-faq {
+    font-size: 1rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.foot-faq {
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+}
+
+/* FIN PÁGINA FAQ Desktop */
+
+/* INICIO PÁGINAS SINGLE (Post de blog) Desktop */
+
+.container__single {
+    margin: 1rem 5rem 3rem 5rem;
+}
+
+.single__date {
+    margin: 2rem 0 0 0;
+}
+
+.header__title-single {
+    font-size: 1.5rem;
+}
+
+.single__text {
+    font-size: 1.2rem;
+}
+
+/* FIN PÁGINAS SINGLE (Post de blog) Desktop */
+
+/* INICIO Footer Desktop */
+
+.footer__sections {
+    display: flex;
+    width: 100%;
+    background-color: var(--color-dark-gris);
+    color: var(--color-blanco);
+}
+
+.footer__top, .footer__middle, .footer__bottom {
+    width: 33.33%;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.footer__top-title, .footer__middle-title {
+    font-size: 1.1rem;
+}
+
+.footer__top-buttons, .footer__middle-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.footer__top-link--about, .footer__top-link--faq, .footer__middle-link--email, .footer__middle-link--whatsapp, .footer__middle-ig-icon {
+    width: 3rem;
+    margin: 0 auto;
+}
+
+.footer__top-link--about-text, .footer__top-link--faq-text, .footer__middle-link--email-text, .footer__middle-link--whatsapp-text, .footer__middle-ig-text, .footer__bottom-text {
+    text-align: center;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+.footer__bottom-text {
+    margin: 1.5rem 0;
+}
+
+.footer__middle-ig-text {
+    text-transform: uppercase;
+}
+
+.footer__bottom-down {
+    color: var(--color-blanco);
+    background-color: var(--color-dark-gris);
+    padding: 0 0 2rem 0;
+}
+
+.footer__bottom-textcopy, .footer__bottom-textpatent {
+    font-style: italic;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.footer__bottom-textpatent {
+    font-size: .7rem;
+}
+
+/* FIN Footer Desktop */
